@@ -7,7 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
-  { name: "Créations", hash: "#Créations" },
+  { name: "Créations", hash: "#Creations" },
   { name: "Expertise", hash: "#expertise" },
   { name: "About", hash: "#about" },
   { name: "Contact", hash: "#contact" },
