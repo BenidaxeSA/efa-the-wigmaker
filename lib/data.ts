@@ -23,17 +23,17 @@ export const creationDATA = [
   {
     title: "Wig Luxueuse 2",
     description: "Un style sophistiqué et moderne, reflet du savoir-faire EFA.",
-    imageUrl: "/images/FILLE.png",
+    imageUrl: "/Images/FILLE.png",
   },
   {
     title: "Wig Luxueuse 3",
     description: "Une coupe et une texture parfaites, conçues pour sublimer chaque cliente.",
-    imageUrl: "/images/wig3.jpg",
+    imageUrl: "/Images/wig3.jpg",
   },
   {
     title: "Wig Luxueuse 4",
     description: "Finition impeccable et style unique pour un look haut de gamme.",
-    imageUrl: "/images/wig4.jpg",
+    imageUrl: "/Images/wig4.jpg",
   },
 ] as const;
 

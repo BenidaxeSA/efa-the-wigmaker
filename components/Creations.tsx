@@ -6,10 +6,10 @@ import { useSectionInView } from "@/lib/hooks";
 import Image from "next/image"; // ✅ import Image
 
 const creations = [
-  { src: "/images/FILE.png", title: "L'Éclat Soyeux", category: "Lace Frontal" },
-  { src: "/images/FILLE.png", title: "Ombré Signature", category: "Custom Color" },
-  { src: "/images/FILLE33.png", title: "Boucles Profondes", category: "Deep Wave" },
-  { src: "/images/EFA1.png", title: "Carré Platinium", category: "Bob Cut" },
+  { src: "/Images/FILE.png", title: "L'Éclat Soyeux", category: "Lace Frontal" },
+  { src: "/Images/FILLE.png", title: "Ombré Signature", category: "Custom Color" },
+  { src: "/Images/FILLE33.png", title: "Boucles Profondes", category: "Deep Wave" },
+  { src: "/Images/EFA1.png", title: "Carré Platinium", category: "Bob Cut" },
 ];
 
 export default function Creations() {
