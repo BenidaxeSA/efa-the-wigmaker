@@ -14,7 +14,7 @@ export default function Contact() {
     <motion.section
       ref={ref}
       id="contact"
-      className="relative w-full bg-[#1A1A1A] py-1 scroll-mt-28 min-h-screen flex items-center"
+      className="relative w-full bg-[#1A1A1A] py-0 scroll-mt-28 min-h-screen flex items-center"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -25,12 +25,9 @@ export default function Contact() {
 
       <div className="relative max-w-4xl mx-auto px-8 text-center space-y-12">
         {/* Titre */}
-        <span className="text-[#B5A48B] text-xs tracking-[0.5em] uppercase mb-4 block font-medium">
-          Contact
-        </span>
-
+      
         <h2 className="text-5xl sm:text-6xl font-serif font-light tracking-widest uppercase text-white">
-          Me Contacter
+        Contact
         </h2>
 
         <div className="h-[1px] w-16 bg-[#B5A48B] mx-auto mt-6 mb-10"></div>
