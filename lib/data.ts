@@ -18,12 +18,12 @@ export const creationDATA = [
   {
     title: "Wig Luxueuse 1",
     description: "Une création capillaire sur-mesure mettant en valeur l’élégance et la finesse des fibres.",
-    imageUrl: "/Images/EFA1.jpeg",
+    imageUrl: "/Images/EFA1.png",
   },
   {
     title: "Wig Luxueuse 2",
     description: "Un style sophistiqué et moderne, reflet du savoir-faire EFA.",
-    imageUrl: "/images/wig2.jpg",
+    imageUrl: "/images/FILLE.png",
   },
   {
     title: "Wig Luxueuse 3",
@@ -41,13 +41,13 @@ export const creationDATA = [
 export const savoirfaireDATA = [
   {
     type: "image",
-    src: "/images/PHOT.jpeg",
+    src: "/images/PHOT.png",
     title: "CUSTOMISATION",
     description: "Une lace travaillée avec précision pour épouser parfaitement la hairline de la cliente.",
   },
   {
     type: "image",
-    src: "/images/FILLE2.jpeg",
+    src: "/images/FILLE2.png",
     title: "Conception sur-mesure",
     description: "Chaque wig est conçue selon les mesures et préférences exactes de la cliente.",
   },
