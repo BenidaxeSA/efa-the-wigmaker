@@ -11,7 +11,7 @@ export default function About() {
     <motion.section
       ref={ref}
       id="about"
-      className="relative w-full bg-[#1A1A1A] py-24 scroll-mt-28 min-h-screen"
+      className="relative w-full bg-[#1A1A1A] py-1 scroll-mt-28 min-h-screen"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}

@@ -19,7 +19,7 @@ export default function Creations() {
     <motion.section
       ref={ref}
       id="creations"
-      className="relative w-full bg-[#1A1A1A] py-40 scroll-mt-28"
+      className="relative w-full bg-[#1A1A1A] py-20 scroll-mt-28"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -32,11 +32,16 @@ export default function Creations() {
             Réservez votre créneau — Places limitées.
           </span>
 
-          <h2 className="text-5xl sm:text-7xl font-serif font-light tracking-wider text-white">
-            EFA <br />THE WIGMAKER
-          </h2>
+          <h2 className="font-serif font-light tracking-wider text-white leading-tight text-center">
+  <span className="text-5xl sm:text-7xl block">
+    EFA
+  </span>
+  <span className="text-xl sm:text-2xl block tracking-[0.5em] uppercase opacity-80 mt-2">
+    The Wigmaker
+  </span>
+</h2>
 
-          <div className="h-[1px] w-16 bg-[#B5A48B] mx-auto mt-8"></div>
+          <div className="h-[1px] w-16 bg-[#B5A48B] mx-auto mt-4"></div>
 
           <p className="mt-10 text-gray-400 font-light text-lg italic max-w-xl mx-auto">
             Nos Créations.
@@ -87,7 +92,7 @@ export default function Creations() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-40">
+        <div className="text-center mt-20">
           <a
             href="#contact"
             className="inline-block border border-white px-14 py-5 text-[11px] tracking-[0.4em] uppercase hover:bg-white hover:text-black transition-all duration-500"

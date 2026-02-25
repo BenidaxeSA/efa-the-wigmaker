@@ -12,7 +12,7 @@ export default function Expertise() {
     <motion.section
       ref={ref}
       id="expertise"
-      className="relative w-full bg-[#1A1A1A] py-40 scroll-mt-28 min-h-screen"
+      className="relative w-full bg-[#1A1A1A] py-2 scroll-mt-28 min-h-screen"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.2 }}
