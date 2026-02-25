@@ -41,13 +41,13 @@ export const creationDATA = [
 export const savoirfaireDATA = [
   {
     type: "image",
-    src: "/images/PHOT.png",
+    src: "/Images/PHOT.png",
     title: "CUSTOMISATION",
     description: "Une lace travaillée avec précision pour épouser parfaitement la hairline de la cliente.",
   },
   {
     type: "image",
-    src: "/images/FILLE2.png",
+    src: "/Images/FILLE2.png",
     title: "Conception sur-mesure",
     description: "Chaque wig est conçue selon les mesures et préférences exactes de la cliente.",
   },
