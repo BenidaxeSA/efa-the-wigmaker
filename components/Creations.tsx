@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import Image from "next/image"; // ✅ import Image
+import Image from "next/image";
 
 const creations = [
   { src: "/Images/FILE.png", title: "L'Éclat Soyeux", category: "Lace Frontal" },
@@ -26,7 +26,6 @@ export default function Creations() {
       viewport={{ once: true }}
     >
       <div className="relative max-w-[1600px] mx-auto px-8">
-
         {/* HEADER */}
         <div className="text-center mb-32">
           <span className="text-[11px] tracking-[0.6em] uppercase text-[#B5A48B] block mb-6">
@@ -55,18 +54,18 @@ export default function Creations() {
               transition={{ duration: 1, delay: index * 0.15 }}
               viewport={{ once: true }}
             >
-              <div className="relative overflow-hidden bg-[#222]">
-                <div className="aspect-[4/5] overflow-hidden relative">
+              <div className="relative overflow-hidden bg-[#222] rounded-2xl">
+                <div className="aspect-[4/5] overflow-hidden relative rounded-2xl">
                   <Image
                     src={item.src}
                     alt={item.title}
-                    fill // remplace width & height pour respecter le parent
+                    fill
                     className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-105"
-                    priority // charge dès le départ pour LCP
+                    priority
                   />
                 </div>
 
-                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition duration-700" />
+                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition duration-700 rounded-2xl" />
               </div>
 
               <div className="mt-10 flex justify-between items-start">
