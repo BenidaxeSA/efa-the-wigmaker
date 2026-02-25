@@ -41,7 +41,7 @@ export const creationDATA = [
 export const savoirfaireDATA = [
   {
     type: "image",
-    src: "/Images/PHOT.png",
+    src: "/Images/add223.png",
     title: "CUSTOMISATION",
     description: "Une lace travaillée avec précision pour épouser parfaitement la hairline de la cliente.",
   },
@@ -52,10 +52,10 @@ export const savoirfaireDATA = [
     description: "Chaque wig est conçue selon les mesures et préférences exactes de la cliente.",
   },
   {
-    type: "video",
-    src: "/videos/FILLE33.mp4",
+    type: "image",
+    src: "/Images/add51.jpeg",
     title: "Finition haut de gamme 1",
-    description: "Vidéo démontrant nos finitions de luxe.",
+    description: "Une confection d’exception pour une perruque parfaitement plate, sans aucune bosse, révélant une finition maîtrisée.",
   },
   {
     type: "video",
