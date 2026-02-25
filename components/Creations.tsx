@@ -3,9 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import Image from "next/image"; // ✅ import Image
 
 const creations = [
-  { src: "/Images/FILE.jpeg", title: "L'Éclat Soyeux", category: "Lace Frontal" },
+  { src: "/images/FILE.jpeg", title: "L'Éclat Soyeux", category: "Lace Frontal" },
   { src: "/images/FILLE.jpeg", title: "Ombré Signature", category: "Custom Color" },
   { src: "/images/FILLE33.jpeg", title: "Boucles Profondes", category: "Deep Wave" },
   { src: "/images/EFA1.jpeg", title: "Carré Platinium", category: "Bob Cut" },
@@ -33,7 +34,7 @@ export default function Creations() {
           </span>
 
           <h2 className="text-5xl sm:text-7xl font-serif font-light tracking-wider text-white">
-            EFA THE WIGMAKER
+            EFA <br />THE WIGMAKER
           </h2>
 
           <div className="h-[1px] w-16 bg-[#B5A48B] mx-auto mt-8"></div>
@@ -55,11 +56,13 @@ export default function Creations() {
               viewport={{ once: true }}
             >
               <div className="relative overflow-hidden bg-[#222]">
-                <div className="aspect-[4/5] overflow-hidden">
-                  <img
+                <div className="aspect-[4/5] overflow-hidden relative">
+                  <Image
                     src={item.src}
                     alt={item.title}
-                    className="w-full h-full object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-105"
+                    fill // remplace width & height pour respecter le parent
+                    className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-105"
+                    priority // charge dès le départ pour LCP
                   />
                 </div>
 

@@ -18,7 +18,7 @@ export const creationDATA = [
   {
     title: "Wig Luxueuse 1",
     description: "Une création capillaire sur-mesure mettant en valeur l’élégance et la finesse des fibres.",
-    imageUrl: "/Assets/EFA1.jpeg",
+    imageUrl: "/Images/EFA1.jpeg",
   },
   {
     title: "Wig Luxueuse 2",
