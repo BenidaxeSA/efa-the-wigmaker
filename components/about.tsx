@@ -32,24 +32,25 @@ export default function About() {
 
         {/* Paragraphe animé */}
         <motion.div
-          className="space-y-6 text-gray-300 text-lg sm:text-xl leading-relaxed"
-          initial={{ y: 60, opacity: 0 }}
+          className="space-y-8 text-gray-400 text-base sm:text-lg leading-[2] font-light text-justify hyphens-auto"
+          initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
           <p>
-            Derrière le nom <span className="font-serif italic text-white">EFA — THE WIGMAKER</span>, 
-            se cache une expertise forgée par plus de <span className="font-medium text-[#B5A48B]">trois années d'immersion totale</span> dans l'univers de la haute perruquerie. 
-            Ayant collaboré et apporté son savoir-faire aux plus prestigieux noms du luxe capillaire à Paris, 
-            EFA a décidé de porter sa propre vision : celle d'une élégance sans compromis.
+            Derrière le nom <span className="font-serif italic text-white tracking-wide">EFA — THE WIGMAKER</span>, 
+            se cache une expertise forgée par plus de <span className="text-[#B5A48B] font-normal">trois années d'immersion totale</span> dans l'univers de la haute perruquerie. 
+            Ayant collaboré avec les plus prestigieux noms du luxe capillaire à Paris, 
+            EFA porte aujourd'hui sa propre vision : celle d'une <span className="text-white italic">élégance sans compromis</span>.
           </p>
 
           <p>
-            Au cœur de l'atelier, la tradition rencontre la performance. Contrairement aux méthodes classiques, 
-            chaque pièce est assemblée à la <span className="font-medium text-white">machine à coudre industrielle</span>. 
-            Cette technique, réservée aux initiés, offre une <span className="font-medium text-[#B5A48B]">solidité structurelle incomparable</span> 
-            et une finition qui permet au bonnet de s'épouser parfaitement aux contours du visage, telle une seconde peau.
+            Contrairement aux méthodes classiques, chaque pièce est assemblée à la 
+            <span className="text-white font-normal uppercase tracking-widest text-sm mx-1"> machine à coudre </span>. 
+            Cette technique d'élite offre une <span className="text-[#B5A48B]">solidité structurelle incomparable</span>. 
+            Le résultat ? Une finition qui permet au bonnet d'épouser les contours du visage avec la précision d'une 
+            <span className="text-white italic"> seconde peau</span>.
           </p>
         </motion.div>
       </div>

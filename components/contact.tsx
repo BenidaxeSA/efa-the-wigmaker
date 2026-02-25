@@ -43,7 +43,7 @@ export default function Contact() {
           className="space-y-6 text-gray-300 text-lg sm:text-xl leading-relaxed"
         >
           <p>
-            Pour toute commande personnalisée ou collaboration, contactez-moi directement via Instagram, email ou PayPal, ou écrivez-moi un message ci-dessous.
+            Pour toute commande personnalisée ou collaboration, contactez-moi directement.
           </p>
         </motion.div>
 

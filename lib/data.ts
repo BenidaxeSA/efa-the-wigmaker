@@ -48,7 +48,7 @@ export const savoirfaireDATA = [
   {
     type: "image",
     src: "/Images/FILLE2.png",
-    title: "Conception sur-mesure",
+    title: "Conception",
     description: "Chaque wig est conçue selon les mesures et préférences exactes de la cliente.",
   },
   {
